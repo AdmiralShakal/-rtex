@@ -40,6 +40,11 @@ button,
 textarea {
   font-family: inherit;
 }
+button {
+  background: none;
+  border: none;
+  color: none;
+}
 input::-ms-clear {
   display: none;
 }
