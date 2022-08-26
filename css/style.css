@@ -907,3 +907,260 @@ body {
 .companies__image:hover {
   -webkit-filter: grayscale(0);
 }
+
+/* ============================== PROGRAM ============================== */
+/* ============================== PROGRAM ============================== */
+
+.program {
+}
+
+.program__main {
+  padding: 115px 0 185px;
+}
+
+.program__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.program__heading {
+  margin-bottom: 60px;
+}
+
+.program__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program__acordeon {
+  max-width: 600px;
+}
+
+.program__acordeon-item {
+  margin-bottom: 24px;
+  padding-left: 40px;
+}
+
+.program__acordeon-item:last-child {
+  margin-bottom: 0px;
+}
+
+.program__acordeon-head {
+  position: relative;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.program__acordeon-head span {
+  color: #ff3f3a;
+}
+
+.program__acordeon-head::before,
+.program__acordeon-head::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  width: 18px;
+  height: 2px;
+  background-color: #ff3f3a;
+  border-radius: 2px;
+}
+
+.program__acordeon-head::after {
+  transform: rotate(90deg);
+  transition: all 0.6s;
+}
+
+.program__acordeon-text {
+  display: none;
+  margin-top: 16px;
+}
+
+.program__acordeon-item--active .program__acordeon-text {
+  display: block;
+}
+
+.program__acordeon-item--active .program__acordeon-head::after {
+  transform: rotate(0deg);
+}
+
+/* ============================== BLOG ============================== */
+/* ============================== BLOG ============================== */
+
+.blog {
+}
+
+.blog__main {
+}
+
+.blog__inner {
+  margin-bottom: 215px;
+}
+
+.blog__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.blog__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.blog__grid-item {
+  border-radius: 4px;
+  position: relative;
+}
+
+.blog__image {
+}
+
+.blog__type {
+  position: absolute;
+  display: flex;
+  background-color: #fff;
+  padding: 2px 8px;
+  top: 12px;
+  left: 12px;
+  border-radius: 4px;
+}
+
+.blog__type-img {
+}
+
+.blog__type-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.blog__info {
+  display: flex;
+  min-height: 190px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.blog__category {
+  display: flex;
+}
+
+.blog__category-ell {
+  padding: 0 12px;
+  color: #787a80;
+  position: relative;
+}
+
+.blog__category-ell:first-child {
+  padding-left: 0;
+}
+
+.blog__category-ell::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 12px;
+  background-color: #787a80;
+}
+
+.blog__category-ell:last-child::after {
+  width: 0;
+}
+
+.blog__category-type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.blog__category-date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+
+.blog__category-date::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(../assets/png/icons/date.svg);
+  margin-right: 8px;
+}
+
+.blog__category-time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+
+.blog__category-time::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 15px;
+  background: url(../assets/png/icons/time.svg);
+  margin-right: 8px;
+}
+
+.blog__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.blog__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+.blog__button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1e212c;
+  display: flex;
+  align-items: center;
+}
+.blog__button::after {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 12px;
+  background: url(../assets/png/icons/arrow-red-right.svg);
+  margin-left: 11px;
+}
+
+.blog__button:hover {
+  transition: all 0.6s;
+  color: #f52f6e;
+}
+
+.blog__info-type {
+}
+
+.blog__info-date {
+}
+
+.blog__info-time {
+}

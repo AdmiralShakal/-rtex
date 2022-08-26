@@ -45,3 +45,11 @@ $(function () {
     $('.testimonials__slider').slick('slickNext');
   });
 });
+
+// acardeon self made function
+
+$('.program__acordeon-item').on('click', (e) => {
+  e.preventDefault();
+  $('.program__acordeon-item').removeClass('program__acordeon-item--active');
+  $(e.target).closest('.program__acordeon-item').addClass('program__acordeon-item--active');
+});
