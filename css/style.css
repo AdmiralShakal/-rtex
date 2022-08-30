@@ -1164,3 +1164,388 @@ body {
 
 .blog__info-time {
 }
+
+/* ============================== CONTACT ============================== */
+/* ============================== CONTACT ============================== */
+
+.contact {
+}
+
+.contact__main {
+}
+
+.contact__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__info {
+}
+
+.contact__heading {
+  margin-bottom: 40px;
+}
+
+.contact__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact__contacts-item {
+  display: flex;
+}
+
+.contacts-image {
+  height: 24px;
+  width: 24px;
+  margin-right: 17px;
+}
+
+.contact__contacts-text {
+}
+
+.contact__contacts-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #787a80;
+}
+
+.contact__contacts-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #1e212c;
+}
+
+.contact__socials {
+  margin-top: 48px;
+}
+
+.contact__socials-text {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+}
+
+.contact__socials-items {
+  display: flex;
+  gap: 32px;
+}
+
+.contact__socials-item {
+}
+
+.contact__socials-link {
+}
+
+.contact__map {
+  width: 705px;
+  height: 412px;
+}
+
+/* ============================== Questions ============================== */
+/* ============================== Questions ============================== */
+
+.questions {
+}
+
+.questions__main {
+}
+
+.questions__inner {
+  padding: 240px 0 180px;
+  display: flex;
+}
+
+.questions__image {
+}
+
+.questions__content {
+}
+
+.questions__heading {
+}
+
+.heading__title {
+}
+
+.questions__form {
+}
+
+.questions__form-row {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.questions__form-label {
+  margin-right: 25px;
+  flex: 1 1 auto;
+}
+
+.questions__form-label:last-child {
+  margin-right: 0;
+}
+
+.questions__text-label {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.questions__form-input,
+.questions__form-text {
+  display: block;
+  border: 1px solid #d7dadd;
+  border-radius: 4px;
+  padding: 13px 16px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.questions__form-input::placeholder,
+.questions__form-text::placeholder {
+  color: #9a9ca5;
+}
+
+.questions__form-text {
+  resize: none;
+  height: 128px;
+}
+
+.questions__checkbox-label {
+  margin-right: 50px;
+  display: flex;
+  width: 100%;
+}
+
+.questions__form-checkbox {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  margin-top: 5px;
+  margin: 5px 12px 0px 0px;
+  transition: all 0.4s;
+}
+
+.questions__form-default {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.questions__form-default:checked + .questions__form-custom {
+  background: url('../assets/png/icons/check.svg') 50% 50% no-repeat, #ff3f3a;
+  border: 1px solid #ff3f3a;
+  transition: all 0.4s;
+}
+
+.questions__form-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #424551;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.questions__form-btn {
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* ============================== Footer ============================== */
+/* ============================== Footer ============================== */
+
+.footer {
+  background: #1e212c;
+  color: #ffffff;
+}
+.footer__inner {
+}
+.footer__body {
+  display: flex;
+  padding: 81px 0 60px;
+}
+.footer__info {
+  margin-right: 80px;
+}
+.footer__item--vertical {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  width: 130px;
+  height: 20px;
+}
+.footer__title {
+  max-width: 280px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  opacity: 0.6;
+  margin: 24px 0 38px;
+}
+.footer__socials {
+  display: flex;
+  gap: 20px;
+}
+.footer__social:hover svg path {
+  fill: #fff;
+  transition: all 0.4s;
+}
+.footer__social-link {
+}
+.footer__navigation {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+}
+
+.footer__navigation-block:first-child {
+  margin-right: 80px;
+}
+.footer__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  min-width: 85px;
+}
+.footer__navigation-site {
+}
+.footer__navigation-item {
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+.footer__navigation-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.footer__navigation-courses {
+}
+.footer__contacts {
+  margin-right: 80px;
+}
+.footer__phone {
+  opacity: 0.6;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  position: relative;
+  padding-left: 24px;
+}
+
+.footer__phone::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background: url(../assets/png/icons/iPhone-footer.svg);
+  width: 16px;
+  height: 16px;
+}
+
+.footer__mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 0.6;
+  padding-left: 24px;
+  position: relative;
+}
+
+.footer__mail::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background: url(../assets/png/icons/Mail-footer.svg);
+}
+
+.footer__subscribe {
+}
+.footer__form {
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.footer__form-mail {
+  width: 286px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.footer__form-mail::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.footer__submit {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 18%;
+}
+.footer__notification {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  opacity: 0.6;
+}
+
+.footer__bottom {
+  padding: 20px 0;
+
+  background-color: #292c37;
+}
+
+.footer__bottom-inner {
+}
+
+.footer__rights {
+}
+
+.footer__rights-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer__rights-text {
+  cursor: default;
+}
+
+.footer__rights-text:hover svg path {
+  transition: all 0.4s;
+  fill: #ff3f3a;
+}
+.footer__totop {
+}
