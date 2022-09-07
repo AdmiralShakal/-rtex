@@ -14,6 +14,26 @@ $(function () {
     infinite: true,
     draggable: false,
     appendArrows: $('.team__slider-arrows'),
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   $('.testimonials__slider').slick({
@@ -53,3 +73,28 @@ $('.program__acordeon-item').on('click', (e) => {
   $('.program__acordeon-item').removeClass('program__acordeon-item--active');
   $(e.target).closest('.program__acordeon-item').addClass('program__acordeon-item--active');
 });
+
+$('.burger, .overlay').on('click', (e) => {
+  e.preventDefault();
+  $('.header__top').toggleClass('header__top--open');
+  $('.overlay').toggleClass('overlay--active');
+});
+
+let scroling = false;
+
+window.addEventListener('scroll', () => {
+  scroling = true;
+});
+
+setInterval(() => {
+  if (scroling) {
+    scroling = false;
+    if ($(window).scrollTop() > 0) {
+      $('.burger').addClass('burger--follow');
+    } else {
+      $('.burger').removeClass('burger--follow');
+    }
+  }
+}, 600);
+
+$();

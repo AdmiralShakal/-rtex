@@ -13,7 +13,11 @@
   </head>
   <body>
     <div class="wraper">
+      <div class="overlay"></div>
       <header class="header">
+        <a href="" class="burger">
+          <span></span>
+        </a>
         <div class="header__top">
           <div class="container">
             <div class="header__top-iner">
@@ -145,8 +149,8 @@
           
              
               <div class="directions__programms">
-                <div class="directions__subtopic">our main directions</div>
-                <h1 class="directions__topic">What do we teach</h1>
+                <div class="directions__subtopic heading__subtitle">our main directions</div>
+                <h1 class="directions__topic heading__title">What do we teach</h1>
                 <ul class="directions__filtres">
                   <li class="directions__filtre directions__filtre--active">
                     <button class="directions__filtre-btn" type="button" data-filter="all" ">All</button>
@@ -223,8 +227,8 @@
 
               <div class="directions__sertificate">
                 <div class="directions__sertificate-text">
-                  <div class="directions__sertificate-subtitle">Createx Certificate</div>
-                  <div class="directions__sertificate-title">Your expertise will be confirmed</div>
+                  <div class="heading__subtitle">Createx Certificate</div>
+                  <div class="heading__title">Your expertise will be confirmed</div>
                   <div class="directions__sertificate-paragraph">We are accredited by international professional organizations and institutes:</div>
                   <div class="directions__companies">
                     <img src="./assets/png/logos/delmar-color.svg" alt="" class="directions__companie">
@@ -232,9 +236,7 @@
                     <img src="./assets/png/logos/national-color.svg" alt="" class="directions__companie">
                   </div>
                 </div>
-                <div class="directions__sertificate-img">
-                  <img src="./assets/png/diploma.jpg" alt="">
-                </div>
+                  <img class="directions__sertificate-img" src="./assets/png/diploma.jpg" alt="">
               </div>
             </div>
           </div>
@@ -1049,12 +1051,14 @@
               <div class="footer__subscribe footer__item--vertical">
                 <h2 class="footer__label">SIGN UP TO OUR NEWSLETTER</h2>
                 <form action="" class="footer__form">
-                  <input type="email" class="footer__form-mail" placeholder="Email address" required>
+                  <div class="footer__submit-form">
+                    <input type="email" class="footer__form-mail" placeholder="Email address" required>
                   <button type="submit" class="footer__submit">
                     <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7929 0.792893C12.1834 0.402369 12.8166 0.402369 13.2071 0.792893L17.7071 5.29289C18.0976 5.68342 18.0976 6.31658 17.7071 6.70711L13.2071 11.2071C12.8166 11.5976 12.1834 11.5976 11.7929 11.2071C11.4024 10.8166 11.4024 10.1834 11.7929 9.79289L14.5858 7H1C0.447715 7 0 6.55228 0 6C0 5.44772 0.447715 5 1 5H14.5858L11.7929 2.20711C11.4024 1.81658 11.4024 1.18342 11.7929 0.792893Z" fill="#FFF"/>
                     </svg>
                   </button>
+                </div>
                 </form>
                 <p class="footer__notification">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</p>
               </div>
